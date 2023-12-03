@@ -6,3 +6,132 @@
   box-sizing: border-box;
   font-family: 'Roboto';
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff608c;
+}
+nav > img {
+  width: 190px;
+  padding: 1.25rem 1rem;
+}
+.section-wrapper > img {
+  width: 80%;
+  max-width: 420px;
+}
+.section-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 844px;
+  padding-top: 7rem;
+}
+.issue {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1.125rem;
+}
+.buy-here {
+  margin: 0.2rem;
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+.buy-here > a {
+  color: white;
+  text-decoration: none;
+}
+.or {
+  margin-top: 1rem;
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+.or > a {
+  color: white;
+  text-decoration: none;
+}
+.buy-here-solo {
+  margin: 0 0 1rem;
+}
+.buy-here-solo > a, .or-solo > a {
+  color: #e568ac;
+  text-decoration: none;
+  font-weight: 600;
+}
+.or-solo {
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+.buy-here-all {
+  margin: 0 0 1rem;
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+.or-all {
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+.buy-here-all > a, .or-all > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.one {
+  background-color: #ff608c;
+}
+.three {
+  background-color:  #00c1b5;
+}
+.four {
+  background-color: #ff651a;
+}
+.five {
+  background-color: #ffbe00;
+}
+.six {
+  background-color: #1d3fbb;
+}
+.seven {
+  background-color: #e30512;
+}
+.lucky {
+  margin: 0 0 0.938rem;
+  padding: 0.188rem 0.938rem 0;
+  font-weight: 600;
+  font-size: 0.938rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.lucky > a {
+  color: white;
+  text-decoration: none;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.copyright {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 25px;
+}
+.copyright > a {
+  color: black;
+}
+.privacy {
+  color: black;
+  margin-bottom: 3.125rem;
+}
+.contact {
+  text-align: center;
+  padding-bottom: 3.125rem;
+}
+.contact > a {
+  color: black;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
