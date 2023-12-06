@@ -113,6 +113,8 @@ nav > img {
   text-align: center;
   font-weight: 600;
   font-size: 1.125rem;
+  padding: 0 0.938rem;
+  line-height: 1.6rem;
 }
 .copyright {
   font-size: 0.75rem;
@@ -134,4 +136,62 @@ nav > img {
   color: black;
   font-size: 1.125rem;
   font-weight: 600;
+  text-decoration: none;
+}
+@media only screen and (min-width: 766px) {
+  nav > img {
+    width: 290px;
+  }
+  .section-wrapper.first {
+    padding-top: 2rem;
+  }
+  .description {
+    width: 30vw;
+    text-align: left;
+    align-items: first baseline;
+  }
+  .p-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1.125rem;
+    padding-right: 1rem;
+  }
+  .privacy {
+    margin-bottom: 1.125rem;
+  }
+}
+@media only screen and (min-width: 996px) {
+  nav > img {
+    position: fixed;
+    left: 0;
+  }
+  .p-wrapper {
+   position: fixed;
+   bottom: 0;
+   width: 100vw;
+  }
+  .contact {
+    align-items: flex-start;
+    position: relative;
+    bottom: 62vh;
+    left: 28vw;
+  }
+  .issues {
+    list-style: none;
+    margin-right: 0.938rem;
+    margin-top: 4rem;
+  }
+  .issues > li {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+  }
+  .issues > li > a {
+    text-decoration: none;
+    color: black;
+  }
 }
