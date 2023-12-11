@@ -141,6 +141,17 @@ section {
   font-weight: 600;
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+section {
+  scroll-snap-align: start;
+}
+.issues {
+  display: none;
+}
 @media only screen and (min-width: 766px) {
   nav > img {
     width: 290px;
@@ -197,4 +208,25 @@ section {
     text-decoration: none;
     color: black;
   }
+  .description {
+    max-width: 320px;
+  }
+  .issues {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1060px) {
+  .contact {
+    bottom: 67vh;
+    left: 34vw;
+  }
+  .issues {
+    margin-bottom: 1.25rem;
+  }
+  .section-wrapper {
+    justify-content: center;
+  }
+}
+  @media only screen and (min-width: 1900px) {
+
 }
